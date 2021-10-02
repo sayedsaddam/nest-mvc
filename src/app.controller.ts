@@ -6,6 +6,6 @@ export class AppController {
   @Get()
   @Render('index')
   root() {
-    return {message: 'Hello from Nest MVC. The dynamic views loading is not working.'};
+    return {message: 'Hello, World!', description: 'Some description about Nest MVC.', multiple: 'Multiple vars can be passed here too.'};
   }
 }
