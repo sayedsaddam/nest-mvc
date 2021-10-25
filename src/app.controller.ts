@@ -6,6 +6,6 @@ export class AppController {
   @Get()
   @Render('index')
   root() {
-    return {message: 'Hello, World!', description: 'Some description about Nest MVC.', multiple: 'Multiple vars can be passed here too.'};
+    return {message: 'Hello, World!', description: 'Some description about Nest MVC.', multiple: 'Multiple vars can be passed here too.', database: 'Running postgres database with thit application...'};
   }
 }

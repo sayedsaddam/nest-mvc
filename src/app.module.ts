@@ -11,7 +11,7 @@ import { AppService } from './app.service';
       port: 5432,
       username: 'postgres',
       password: 'postgres',
-      database: 'test',
+      database: 'mydb',
       entities: [],
       synchronize: true,
     }),
